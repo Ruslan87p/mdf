@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Angular article",
+      "author": "@angular",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
+    {
+      "id": 2,
+      "title": "React article",
+      "author": "@react",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
+    {
+      "id": 3,
+      "title": "Next js article",
+      "author": "@next",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "@server",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
+    {
+      "id": 5,
+      "title": "Vue",
+      "author": "@vue",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    }
+  ]
+}

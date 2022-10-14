@@ -1,0 +1,24 @@
+{
+  "name": "scene",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/scene/src",
+  "prefix": "ng-mdf",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/scene"],
+      "options": {
+        "jestConfig": "libs/scene/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/scene/**/*.ts", "libs/scene/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let post of posts; index as i;">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title | translate}}</h5>
+                    <p class="card-text">{{post.desc | translate}}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{post.author | translate}}</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

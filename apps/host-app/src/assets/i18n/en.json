@@ -1,0 +1,31 @@
+{
+  "welcome": "Welcome to host-app",
+  "hello": "Hello there",
+  "list": [
+    {
+      "title": "Angular article",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content",
+      "link": "Card link"
+    },
+    {
+      "title": "React article",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content",
+      "link": "Card link"
+    },
+    {
+      "title": "Next js article",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content",
+      "link": "Card link"
+    },
+    {
+      "title": "Json-server article",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content",
+      "link": "Card link"
+    },
+    {
+      "title": "Vue article",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content",
+      "link": "Card link"
+    }
+  ]
+}
